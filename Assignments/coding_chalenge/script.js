@@ -26,7 +26,7 @@ const johnBMI = johnMass / johnHeight ** 2;
 const markHigherBMI = markBMI > johnBMI;
 
 console.log(`Marks BMI = ${markBMI}`, `, Johns MBI = ${johnBMI}`, `, does mark have a higher BMI? ${markHigherBMI}`); */
-
+/* 
 const firstName = 'Jonas';
 const job = 'teacher';
 const birthYear = 1991;
@@ -34,3 +34,29 @@ const birthYear = 1991;
 const jonas = "I'm " + firstName + ', a ' + (2037 - birthYear) + ' years old ' + job + '!';
 
 console.log(jonas)
+
+const jonasNew = `i'm ${firstName} a ${2037 - birthYear} year old ${job}!`
+console.log(jonasNew);
+
+console.log(`just a regular string...`);
+
+console.log('string with \n\
+multiple \n\
+lines');
+
+console.log(`string
+multiple
+lines`); */
+
+const age = 19;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+    console.log(`Sarah can start driving license 🚗`);
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+};
+
+
+
