@@ -48,15 +48,55 @@ console.log(`string
 multiple
 lines`); */
 
-const age = 19;
-const isOldEnough = age >= 18;
+/* const age = 19;
+//const isOldEnough = age >= 18;
 
-if (isOldEnough) {
+if (age >= 18) {
     console.log(`Sarah can start driving license 🚗`);
 } else {
     const yearsLeft = 18 - age;
     console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
 };
 
+const birthYear = 1991;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century); */
 
 
+// let markMass = 78;
+// const markHeight = 1.69;
+// let johnMass = 92;
+// const johnHeight = 1.95;
+
+// const markBMI = markMass / markHeight ** 2;
+// const johnBMI = johnMass / johnHeight ** 2;
+// let resultMark = markBMI.toFixed(1.1) // added this and the bottom one for better visual decimal
+// let resultJohn = johnBMI.toFixed(1.1)
+
+// //const markHigherBMI = markBMI > johnBMI;
+
+// //console.log(`Marks BMI = ${markBMI}, Johns MBI = ${johnBMI}, does mark have a higher BMI? ${markHigherBMI}`);
+// if (markBMI > johnBMI) {
+//     console.log(`Mark's BMI (${resultMark}) is more than John's BMI (${resultJohn})`)
+// } else {
+//     console.log(`John's BMI (${resultJohn}) is more than Mark's BMI (${resultMark})`)
+// }
+
+
+// type conversion
+const inputYear = '1991';
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+
+console.log(Number('jonas'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// type coercion
+console.log('i am + 23 ')
